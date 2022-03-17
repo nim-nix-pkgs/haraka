@@ -11,7 +11,7 @@
   inputs.src-haraka-master.owner = "~ehmry";
   inputs.src-haraka-master.ref   = "refs/heads/master";
   inputs.src-haraka-master.repo  = "nim_haraka";
-  inputs.src-haraka-master.type  = "other";
+  inputs.src-haraka-master.type  = "sourcehut";
   
   outputs = { self, nixpkgs, flakeNimbleLib, ...}@deps:
   let 
